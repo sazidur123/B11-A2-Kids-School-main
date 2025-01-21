@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids-School</title>
+    <script src="https://kit.fontawesome.com/302eee30f5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="">
+                <h1>SCHOOL</h1>
+            </div>
+
+            <ul>
+                <a href="#"><span style="color: orange;">Home</span></a>
+                <a href="#"><span style="color: skyblue;">About</span></a>
+                <a href="#"><span style="color: #05D4DF;">Facilities</span></a>
+                <a href="#"><span style="color: #5D58EF;">Admission</span></a>
+                
+            </ul>
+
+            <div>
+                <a href="#"><button class="button">Contact</button></a>
+            </div>
+
+            <div id="icon"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand", serif;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+.flax{
+    display: flex;
+}
+.display{
+    display: none;
+}
+
+.button{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.main-section{
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+.section-tittle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 46px;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav > .logo{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+nav > .logo > .img{
+    width: 62px;
+    height: 62px;
+}
+
+nav > .logo > h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: black;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav > ul > a{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+nav .button{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 60px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: orange;
+}
+
+#icon, hr{
+    display: none;
+}
+</style>
+        <hr>
+        <div class="banner container">
+            <div class="left-banner">
+                <h1 class="banner-tittle"><span style="color: orange;">Empowering</span> students from small age <span style="color: skyblue;">towards vision</span>
+                </h1>
+                <p class="banner-disc">With the courage, Confidence, Creativity and Compassion to make their Unique
+                    Contribution in a Diverse and Dynamic World.</p>
+                <a href="#"><button class="button">Enroll Now</button></a>
+            </div>
+
+            <div class="right-banner">
+                <img src="./assets/hero-kids.png" alt="hero-kids">
+            </div>
+        </div>
+<style>
+    .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-banner{
+    max-width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner-tittle{
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 56px;
+    color: black;
+}
+
+.banner-disc{
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+</style>
+        <!-- marquee use -->
+        <marquee class="marq" direction="left" loop="">
+            <span style="color: #05D4DF;">Admission is on going!</span>  
+        </marquee>
+<style>
+    .marq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: #f0a800a0;
+}
+</style>
+    </header>
+
+    <main>
+        <section class="curriculum main-section">
+            <div class="container">
+                <h1 class="section-tittle">Standard Curriculum</h1>
+
+                <div class="curriculum-container">
+
+                    <div class="curriculum-card cd1">
+                        <div class="img-div">
+                            <img src="./assets/kinder.png" alt="">
+                        </div>
+                        <h1 class="tittle">Kinder (3-6) Years</h1>
+                        <p class="disc">Our academy specializing in engaging and age-appropriate education for children aged 3 to 6 years, fostering growth and curiosity.</p>
+                        <div class="btn"><a href="#">Read More</a></div>
+                    </div>
+
+                    <div class="curriculum-card cd2">
+                        <div class="img-div">
+                            <img src="./assets/elementary.png" alt="">
+                        </div>
+                        <h1 class="tittle">Elementary School</h1>
+                        <p class="disc">Our  Academy provides quality education and nurturing guidance for elementary students to thrive and grow.</p>
+                        <div class="btn"><a href="#">Read More</a></div>
+                    </div>
+
+                    <div class="curriculum-card cd3">
+                        <div class="img-div">
+                            <img src="./assets/middle.png" alt="">
+                        </div>
+                        <h1 class="tittle">Middle (10-16) Years</h1>
+                        <p class="disc">Empowering Middle Years students (ages 10-16) with personalized, engaging learning experiences to unlock their full potential.</p>
+                        <div class="btn"><a href="#">Read More</a></div>
+                    </div>
+
+                </div>
+
+            </div>
+<style>
+    .curriculum-container{
+    margin: 80px auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.curriculum-card{
+    border-radius: 19px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.cd1{
+    background-image: linear-gradient(#DEF5FF,white);
+    border: 1px solid #DEF5FF;
+}
+.cd2{
+    background-image: linear-gradient(#FFF4DC, white);
+    border: 1px solid #FFF4DC;
+}
+.cd3{
+    background-image: linear-gradient(#F2E8FF, white);
+    border: 1px solid #F2E8FF;
+}
+
+.curriculum-card .img-div{
+    padding: 32px 0;
+
+}
+.curriculum-card .tittle{
+    font-weight: 700;
+    font-size: 24px;
+    color: #202020;
+
+}
+.curriculum-card .disc{
+    max-width: 285px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #808080;
+    padding: 34px 0;
+    margin: 0 40px;
+}
+
+.curriculum-card .btn{
+    padding-bottom: 54px;
+    
+}
+.curriculum-card .btn a{
+    color: #64C8FF;
+    font-weight: 700;
+    font-size: 15px;
+}
+.cd2 .btn a{
+    color: #F0AA00;
+}
+.cd3 .btn a{
+    color: #8700FF;
+}
+</style>
+            <div class="angle-btn">
+                <div><i class="fa-solid fa-angle-left"></i></div>
+                <div><i class="fa-solid fa-angle-right"></i></div>
+            </div>
+<style>
+    .angle-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.angle-btn div {
+    color: white;
+    background-color: orange;
+    padding: 17px 22px;
+    border-radius: 50%;
+    font-size: 16px;
+   
+}
+.angle-btn:hover {
+    transform: scale(1.1);
+}
+
+</style>          
+        </section>
+
+        <section class="stories main-section">
+            <div class="container">
+                <h1 class="section-tittle">Our Stories</h1>
+                <div class="card-container">
+                    <div id="card1">
+                        <div id="image">
+                            <img src="./assets/story-1.png" alt="story pic">
+                            <div id="card1-date">November 19, 2019</div>
+                        </div>
+                        <div class="card1-text">
+                            <h2 class="card1-tittle">A fun toddler coloring training on classroom</h2>
+                            <p class="card1-disc">Beautiful branding for changes by Never Now in Australia. changes is a
+                                platform for open discussion in an inclusive and collaborative environment, providing
+                                the...</p>
+                        </div>
+
+                    </div>
+
+                    <div class="card2">
+                        <div class="card">
+                            <div class="image">
+                                <img src="./assets/story-2.png" alt="image">
+                                <div class="card-date">November 19, 2019</div>
+                            </div>
+                            <h2 class="card-tittle">Find out if a school fits the family’s needs</h2>
+                        </div>
+
+                        <div class="card display">
+                            <div class="image">
+                                <img src="./assets/story-3.png" alt="image">
+                                <div class="card-date" style="background-color: #5D58F0;">November 19, 2019</div>
+                            </div>
+                            <h2 class="card-tittle">Summer math & literacy centres for kids</h2>
+                        </div>
+
+                        <div class="card display">
+                            <div class="image">
+                                <img src="./assets/story-3.png" alt="image">
+                                <div class="card-date" style="background-color: #5D58F0;">November 19, 2019</div>
+                            </div>
+                            
+                            <h2 class="card-tittle">Summer math & literacy centres for kids</h2>
+                        </div>
+
+                        <div class="card">
+                            <div class="image">
+                                <img src="./assets/story-3.png" alt="image">
+                                <div class="card-date" style="background-color: #5D58F0;">November 19, 2019</div>
+                            </div>
+                            <h2 class="card-tittle">Summer math & literacy centres for kids</h2>
+                        </div>
+
+                        <div class="card">
+                            <div class="image">
+                                <img src="./assets/story-4.png" alt="image">
+                                <div class="card-date">September 10, 2019</div>
+                            </div>
+                            <h2 class="card-tittle">Classroom management techniques for new tutors</h2>
+                        </div>
+
+                        <div class="card">
+                            <div class="image">
+                                <img src="./assets/story-5.png" alt="image">
+                                <div class="card-date">July 19, 2019</div>
+                            </div>
+                            <h2 class="card-tittle">Conversation rhymes improve kids listening</h2>
+                        </div>
+                    </div>
+
+                </div>
+<style>
+    .stories{
+    background-image: url(./assets/bg.png), linear-gradient(180deg, hwb(0 100% 0% / 0.3) 0%, hsla(38, 99%, 50%, 0.3) 100%);
+}
+
+.card-container{
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#card1{
+    border-radius: 16px;
+    max-width: 50%;
+    background: white;
+}
+
+#image{
+    position: relative;
+
+}
+#card1 img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+#card1-date{
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px 19px;
+    border-radius: 48px;
+    color: white;
+    background-color: #3CD8E8;
+    position: absolute;
+    bottom: -6%;
+    left: 6%;
+}
+
+.card1-text{
+    padding: 60px 38px 42px;
+}
+
+.card1-tittle{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 40px;
+    color: black;
+}
+.card1-disc{
+    font-weight: 500;
+    font-size: 15px;
+    color: #666666;
+}
+
+.card2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+.card{
+    max-width: 290px;
+    border-radius: 16px;
+    background: white;
+}
+
+.card .image{
+    position: relative;
+
+}
+.card  img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.card-date {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 11px 19px;
+    border-radius: 48px;
+    color: white;
+    background-color: #95B226;
+    position: absolute;
+    bottom: -8%;
+    left: 14%;
+}
+
+.card-tittle {
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    padding: 38px 20px 33px 45px;
+}
+
+.stories .button{
+    padding: 10px 47px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+</style>
+                <div class="btn"><button class="button">View All</button></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container flax">
+            <div class="div1">
+                <div class="flax">
+                    <img src="assets/footer-logo.png" alt="">
+                    <h1>Kids Education</h1>
+                </div>
+                <p class="disc">Pizza ipsum dolor meat lovers buffalo. Deep dolor roll melted bacon Bianca pan bacon
+                    pineapple Aussie. Mayo rib sauce Hawaiian meatball.</p>
+            </div>
+            <div class="div2">
+                <h3>About School</h3>
+                <ul>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Facilities</a>
+                    <a href="#">Admission</a>
+                </ul>
+            </div>
+            <div class="div3">
+                <h2>Keep In Touch</h2>
+                <div class="flax">
+                    <img src="./assets/fb.png" alt="">
+                    <img src="./assets/dribble.png" alt="">
+                    <img src="./assets/twitter.png" alt="">
+                    <img src="./assets/google+.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+<style>
+    footer{
+    background-color: #01ACFD;
+    padding: 120px 0;
+    color: white;
+}
+footer .container{
+    justify-content: space-between;
+}
+
+footer .div1 h1{
+    font-weight: 700;
+    font-size: 42px;
+    width: min-content;
+}
+footer .div1 .disc{
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 400px;
+    margin-top: 35px;
+}
+
+footer .div2 h3{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+footer .div2 ul a{
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+footer .div3 h2{
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 32px;
+}
+
+footer .div3 .flax{
+    gap: 10px;
+}
+</style>
+<style>
+    @media screen and (max-width: 576px) {
+    .container{
+        margin: 0 16px;
+    }
+    footer > .flax{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .button {
+        font-size: 15px;
+    }
+    
+    .display{
+        display: block;
+    }
+    
+    #icon{
+        display: block;
+        font-size: 30px;
+    }
+    
+    nav > .logo > h1, nav > ul, nav .button, .angle-btn, #card1{
+        display: none;
+    }
+
+    nav{
+        padding: 12px 0;
+    }
+    
+    nav > .logo > .img{
+        width: 46px;
+        height: 46px;
+    }
+    
+    hr{
+        display: block;
+        border-bottom: 0.5px solid orange;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        gap: 20px;        
+    }
+
+    .right-banner{
+        margin-top: 20px;
+        max-width: calc(100% - 16px);
+    }
+
+    .right-banner img{
+        width: 100%;
+    }
+
+    .left-banner{
+        max-width: calc(100% - 16px);
+        gap: 18px;
+        text-align: center;
+    }
+
+    .banner-tittle{
+        max-width: 335px;
+        font-size: 32px;
+        margin: 0 auto;
+    }
+
+    .banner-disc{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .left-banner button{
+        font-size: 16px;
+        padding: 6px 24px;
+    }
+
+    .main-section {
+        padding: 20px 0;
+    }
+
+    .section-tittle {
+        font-size: 26px;
+    }
+
+    .curriculum-container{
+        margin: 40px auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .curriculum-card .disc {
+        margin: 0 auto;
+    }
+
+    .card-container {
+        margin: 40px 0;
+    }
+    
+    .card2{
+        gap: 11px;
+    }
+
+    .card-date {
+        font-size: 9px;
+        padding: 6px 11px;
+        border-radius: 28px;
+        bottom: -3%;
+        left: 10%;
+    }
+    .card-tittle {
+        font-size: 10px;
+        padding: 25px 20px 33px 23px;
+    }
+    footer .div1 h1 {
+        font-size: 36px;
+    }
+    footer .div1 .disc {
+        font-size: 16px;
+    }
+
+    footer .div2 h3 {
+    font-size: 24px;
+    margin-bottom: 26px;
+    }
+    footer .div2 ul a {
+    font-size: 17px;
+    margin-bottom: 16px;
+    }
+    footer .div3 h2 {
+    font-size: 22px;
+    margin-bottom: 28px;
+    }
+
+}
+</style>
+</body>
+
+</html>
